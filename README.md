@@ -13,6 +13,6 @@ My final dashboard is in [Data_Science_Salary_Dashboard_2026](https://github.com
 
 The following Excel skills were utilized for analysis:
 
-📉 Charts
-🧮 Formulas and Functions
-❎ Data Validation
+* 📉 Charts
+* 🧮 Formulas and Functions
+* ❎ Data Validation
