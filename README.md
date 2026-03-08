@@ -67,13 +67,32 @@ IF(
 
 ##### 🍽️ Background Table
 <img width="265" height="220" alt="1_Salary_Dashboard_Screenshot1" src="https://github.com/user-attachments/assets/7d5d4920-21ed-4759-a3ac-70331ce0287b" />
+
 ##### 📉 Dashboard Implementation
 <img width="1148" height="1214" alt="1_Salary_Dashboard_Job_Title" src="https://github.com/user-attachments/assets/fc2b9f88-4dab-4cda-a7a2-098b5b63762d" />
+
 ##### ⏰ Count of Job Schedule Type
 ```
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
 ```
 * 🔍 Unique List Generation: This Excel formula below employs the FILTER() function to exclude entries containing "and" or commas, and omit zero values.
 * 🔢 Formula Purpose: This formula populates the table below, which gives us a list of unique job schedule types.
+
 ##### 🍽️ Background Table
 <img width="195" height="119" alt="1_Salary_Dashboard_Screenshot2" src="https://github.com/user-attachments/assets/eaeb77a2-78e7-4f7d-afa7-dd34103a876d" />
+
+##### 📉 Dashboard Implementation:
+<img width="942" height="1212" alt="1_Salary_Dashboard_Type" src="https://github.com/user-attachments/assets/22e4a8de-e539-4f5c-ae1c-ea4088ea6848" />
+
+### ❎ Data Validation
+
+#### 🔍 Filtered List
+
+* 🔒 Enhanced Data Validation: Implementing the filtered list as a data validation rule under the Job Title, Country, and Type option in the Data tab ensures:
+  * 🎯 User input is restricted to predefined, validated schedule types
+  * 🚫 Incorrect or inconsistent entries are prevented
+  *  👥 Overall usability of the dashboard is enhanced
+![1_Salary_Dashboard_Data_Validation](https://github.com/user-attachments/assets/9b9b8685-4a58-42e9-b36e-ad576786d54e)
+
+## Conclusion
+I created this dashboard to showcase insights into salary trends across various data-related job titles. Utilizing data from my Excel course, this dashboard allows users to make informed decisions about their career paths. Exploring the functionalities to understand how location and job type influence salaries.
