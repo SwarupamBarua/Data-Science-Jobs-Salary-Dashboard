@@ -92,6 +92,7 @@ IF(
   * 🎯 User input is restricted to predefined, validated schedule types
   * 🚫 Incorrect or inconsistent entries are prevented
   *  👥 Overall usability of the dashboard is enhanced
+
 ![1_Salary_Dashboard_Data_Validation](https://github.com/user-attachments/assets/9b9b8685-4a58-42e9-b36e-ad576786d54e)
 
 ## Conclusion
