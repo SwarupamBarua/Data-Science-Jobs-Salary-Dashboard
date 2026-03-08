@@ -7,4 +7,4 @@ The data is from my Excel course, which provides a foundation in analyzing data 
 
 ### Dashboard File
 
-My final dashboard is in 
+My final dashboard is in [Data_Science_Salary_Dashboard_2026](https://github.com/SwarupamBarua/Data-Science-Jobs-Salary-Dashboard/blob/main/Data_Science_Salary_Dashboard_2026.xlsx)
